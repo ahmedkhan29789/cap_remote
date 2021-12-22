@@ -34,7 +34,6 @@ function parseResponseCountries(response) {
     var i = new Object();
 
     i.Country = c.Country;
-    i.Slug = c.Slug;
     i.CountryCode = c.CountryCode;
     i.NewConfirmed = c.NewConfirmed;
     i.TotalConfirmed = c.TotalConfirmed;
@@ -49,3 +48,4 @@ function parseResponseCountries(response) {
 
   return countries;
 }
+module.exports = Covid19Api;

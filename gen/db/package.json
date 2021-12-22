@@ -1,0 +1,10 @@
+{
+  "name": "deploy",
+  "dependencies": {},
+  "scripts": {
+    "start": "node node_modules/@sap/hdi-deploy/deploy.js"
+  },
+  "devDependencies": {
+    "@sap/hdi-deploy": "^4.2.3"
+  }
+}

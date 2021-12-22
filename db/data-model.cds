@@ -1,7 +1,6 @@
 namespace db; 
 entity Countries{
     Country : String;
-    Slug : String;
     CountryCode : String;
     NewConfirmed : String;
     TotalConfirmed : String;
